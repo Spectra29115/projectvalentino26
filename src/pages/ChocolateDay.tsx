@@ -13,8 +13,8 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const IS_LOCKED = false;
 const CUSTOM_IMAGE = "";
-const CUSTOM_MESSAGE = "Life is like a box of chocolates, and meeting you was finding the most exquisite truffle. Every moment with you is as sweet as the finest Belgian chocolate.";
-const BOTTOM_MESSAGE = "You're sweeter than any chocolate, and that's saying something! Here's to our love that only gets sweeter with time. 🍫❤️";
+const CUSTOM_MESSAGE = "Life is like a box of chocolates, and meeting you was finding the softest and the warmest brownie. UK? Like the book store one";
+const BOTTOM_MESSAGE = "You're sweeter than any chocolate, and tasting u felt like heaven. Here's to our love that only gets sweeter with time. 🍫❤️";
 
 // ═══════════════════════════════════════════════════════════════════════════
 
@@ -83,7 +83,7 @@ const ChocolateDay = () => {
                   </ul>
                 </div>
 
-                {/* Sweet Words */}
+                {/* Sweet Words Like U */}
                 <div className="bg-valentine-pink-light rounded-xl p-4 md:p-6">
                   <h3 className="text-lg md:text-xl font-semibold text-primary mb-3 text-center">
                     Sweet Words 💕
@@ -100,7 +100,7 @@ const ChocolateDay = () => {
           <div className="max-w-3xl mx-auto mb-6">
             <ImageBlock
               imageSrc={CUSTOM_IMAGE}
-              placeholder="HAPPY CHOCOLATE DAY"
+              placeholder="HAPPY CHOCOLATE DAY BABY"
             />
           </div>
 

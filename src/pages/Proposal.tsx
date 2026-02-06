@@ -60,10 +60,6 @@ const Proposal = () => {
                 </p>
               </div>
 
-              <Button className="w-full mt-6 gap-2 bg-primary hover:bg-primary/90">
-                <Send className="w-4 h-4" />
-                Send with Love
-              </Button>
             </CardContent>
           </Card>
 

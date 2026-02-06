@@ -101,7 +101,6 @@ const ChocolateDay = () => {
             <ImageBlock
               imageSrc={CUSTOM_IMAGE}
               placeholder="HAPPY CHOCOLATE DAY BABY"
-              className="h-96 md:h-screen"
             />
           </div>
 

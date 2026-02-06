@@ -12,7 +12,7 @@ import { Card, CardContent } from "@/components/ui/card";
 // ═══════════════════════════════════════════════════════════════════════════
 
 const IS_LOCKED = true;
-const CUSTOM_IMAGE = "image_ChocolateDay.jpeg";
+const CUSTOM_IMAGE = "https://drive.google.com/file/d/1IZSyGa5DfL_mGvAKA-F8j8_U6DynzbTW/view?usp=sharing";
 const CUSTOM_MESSAGE = "Life is like a box of chocolates, and meeting you was finding the softest and the warmest brownie. UK? Like the book store one";
 const BOTTOM_MESSAGE = "You're sweeter than any chocolate, and tasting u felt like heaven. Here's to our love that only gets sweeter with time. 🍫❤️";
 

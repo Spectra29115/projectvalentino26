@@ -15,7 +15,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const IS_LOCKED = true;
 
 // Custom image - replace with your image URL or import
-const CUSTOM_IMAGE = ""; // Example: "https://example.com/our-photo.jpg"
+const CUSTOM_IMAGE = "https://drive.google.com/file/d/1ulfAM7Sdz0Qoun-dxN9KzkY31faOOpcV/view?usp=sharing"; // Example: "https://example.com/our-photo.jpg"
 
 // Custom message for your loved one
 const CUSTOM_MESSAGE = "Like a rose needs sunshine and rain to bloom, my heart needed you to find its truest form of love. You are the garden where my love grows endlessly.";
@@ -90,8 +90,8 @@ const RoseDay = () => {
 
           {/* Image Block */}
           <div className="max-w-3xl mx-auto mb-6">
-            <ImageBlock 
-              imageSrc={CUSTOM_IMAGE} 
+            <ImageBlock
+              imageSrc={CUSTOM_IMAGE}
               placeholder="Add a special rose day photo here"
             />
           </div>

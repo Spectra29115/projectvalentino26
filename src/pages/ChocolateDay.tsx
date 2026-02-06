@@ -83,10 +83,10 @@ const ChocolateDay = () => {
                   </ul>
                 </div>
 
-                {/* Sweet Words Like U */}
+                {/* Sweet Words  */}
                 <div className="bg-valentine-pink-light rounded-xl p-4 md:p-6">
                   <h3 className="text-lg md:text-xl font-semibold text-primary mb-3 text-center">
-                    Sweet Words 💕
+                    Sweet Words Like U 💕
                   </h3>
                   <p className="text-muted-foreground text-sm italic text-center">
                     "{CUSTOM_MESSAGE}"

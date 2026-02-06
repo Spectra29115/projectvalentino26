@@ -100,7 +100,7 @@ const ChocolateDay = () => {
           <div className="max-w-3xl mx-auto mb-6">
             <ImageBlock 
               imageSrc={CUSTOM_IMAGE} 
-              placeholder="Add a sweet chocolate day photo here"
+              placeholder="HAPPY CHOCOLATE DAY"
             />
           </div>
 

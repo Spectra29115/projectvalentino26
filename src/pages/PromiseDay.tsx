@@ -12,7 +12,7 @@ import { Card, CardContent } from "@/components/ui/card";
 // ═══════════════════════════════════════════════════════════════════════════
 
 const IS_LOCKED = true;
-const CUSTOM_IMAGE = "";
+const CUSTOM_IMAGE = "image_ChocolateDay.jpeg";
 const CUSTOM_MESSAGE = "I promise to be your rock when the seas get rough, your sunshine on cloudy days, and your partner in every adventure life brings. With you, I've found my forever, and I promise to cherish every moment we share.";
 const BOTTOM_MESSAGE = "These aren't just promises—they're commitments written in my heart, sealed with love, and meant for eternity. 💜";
 
@@ -53,8 +53,8 @@ const PromiseDay = () => {
               </h2>
               <div className="grid sm:grid-cols-2 gap-4">
                 {promises.map((promise, i) => (
-                  <div 
-                    key={i} 
+                  <div
+                    key={i}
                     className="flex items-center gap-3 p-3 bg-valentine-purple-light/50 rounded-lg"
                   >
                     <Check className="w-5 h-5 text-valentine-purple flex-shrink-0" />
@@ -81,8 +81,8 @@ const PromiseDay = () => {
 
           {/* Image Block */}
           <div className="max-w-3xl mx-auto mb-6">
-            <ImageBlock 
-              imageSrc={CUSTOM_IMAGE} 
+            <ImageBlock
+              imageSrc={CUSTOM_IMAGE}
               placeholder="Add a meaningful promise day photo here"
             />
           </div>

@@ -34,7 +34,7 @@ const ImageBlock = ({
       <img
         src={imageSrc}
         alt={alt}
-        className="w-full h-64 md:h-96 object-cover rounded-xl"
+        className="w-full h-screen md:h-screen object-cover rounded-xl"
         loading="lazy"
       />
     </div>

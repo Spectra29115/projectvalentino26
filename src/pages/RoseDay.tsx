@@ -12,15 +12,15 @@ import { Card, CardContent } from "@/components/ui/card";
 // ═══════════════════════════════════════════════════════════════════════════
 
 // Set to false to unlock this page
-const IS_LOCKED = true;
+const IS_LOCKED = false;
 
 // Custom image - replace with your image URL or import
 const CUSTOM_IMAGE = "https://drive.google.com/file/d/1ulfAM7Sdz0Qoun-dxN9KzkY31faOOpcV/view?usp=sharing"; // Example: "https://example.com/our-photo.jpg"
 
 // Custom message for your loved one
-const CUSTOM_MESSAGE = "Like a rose needs sunshine and rain to bloom, my heart needed you to find its truest form of love. You are the garden where my love grows endlessly.";
+const CUSTOM_MESSAGE = "Like a rose needs sunshine and rain to bloom, my heart needs you to find love. My love for you grows stronger with each passing day, just like a rose in full bloom. Happy Rose Day, my love! 🌹";
 
-const BOTTOM_MESSAGE = "Every rose I give you carries a piece of my heart. You make every day feel like Valentine's Day. 💕";
+const BOTTOM_MESSAGE = "The best pic of u with the very rose i gifted u. 💕From your faithful phoolwala";
 
 // ═══════════════════════════════════════════════════════════════════════════
 
@@ -92,7 +92,7 @@ const RoseDay = () => {
           <div className="max-w-3xl mx-auto mb-6">
             <ImageBlock
               imageSrc={CUSTOM_IMAGE}
-              placeholder="Add a special rose day photo here"
+              placeholder=""
             />
           </div>
 

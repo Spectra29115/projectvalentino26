@@ -6,7 +6,7 @@ import ImageBlock from "@/components/ImageBlock";
 import MessageBlock from "@/components/MessageBlock";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import img from "@/components/Images/image_ChocolateDay.jpeg";
+import img from "@/components/Images/image_ChocolateDay";
 
 // ═══════════════════════════════════════════════════════════════════════════
 // CUSTOMIZATION SECTION

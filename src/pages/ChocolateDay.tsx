@@ -97,7 +97,7 @@ const ChocolateDay = () => {
           </Card>
 
           {/* Image Block */}
-          <div className="max-w-3x4 mx-auto mb-6">
+          <div className="max-w-3x1 mx-auto mb-6">
             <ImageBlock
               imageSrc={CUSTOM_IMAGE}
               placeholder="HAPPY CHOCOLATE DAY BABY"

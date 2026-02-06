@@ -11,7 +11,7 @@ import { Card, CardContent } from "@/components/ui/card";
 // CUSTOMIZATION SECTION
 // ═══════════════════════════════════════════════════════════════════════════
 
-const IS_LOCKED = true;
+const IS_LOCKED = false;
 const CUSTOM_IMAGE = "";
 const CUSTOM_MESSAGE = "Life is like a box of chocolates, and meeting you was finding the most exquisite truffle. Every moment with you is as sweet as the finest Belgian chocolate.";
 const BOTTOM_MESSAGE = "You're sweeter than any chocolate, and that's saying something! Here's to our love that only gets sweeter with time. 🍫❤️";
@@ -53,8 +53,8 @@ const ChocolateDay = () => {
               </h2>
               <div className="flex justify-center gap-4 flex-wrap">
                 {chocolates.map((choco, i) => (
-                  <div 
-                    key={i} 
+                  <div
+                    key={i}
                     className="w-14 h-14 md:w-16 md:h-16 bg-valentine-cream/20 rounded-lg flex items-center justify-center text-2xl md:text-3xl hover:scale-110 transition-transform"
                   >
                     {choco}
@@ -98,8 +98,8 @@ const ChocolateDay = () => {
 
           {/* Image Block */}
           <div className="max-w-3xl mx-auto mb-6">
-            <ImageBlock 
-              imageSrc={CUSTOM_IMAGE} 
+            <ImageBlock
+              imageSrc={CUSTOM_IMAGE}
               placeholder="HAPPY CHOCOLATE DAY"
             />
           </div>

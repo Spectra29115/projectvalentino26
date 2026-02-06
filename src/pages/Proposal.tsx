@@ -8,16 +8,20 @@ import { Card, CardContent } from "@/components/ui/card";
 // CUSTOMIZATION SECTION - Edit your letter and messages below
 // ═══════════════════════════════════════════════════════════════════════════
 
-const PROPOSAL_LETTER = `My dearest love,
+const PROPOSAL_LETTER = `Hi Baby,
 
-From the moment I saw you, I knew my heart had found its home. Every day with you feels like a beautiful dream I never want to wake up from.
+So the thing is ami toke reels er through jigesh korleo officially jigesh korini about this. IK ki
+a lot of things have happened recently which left neither one of us in a good shape. Literally amar
+matha phete jacche rn. But..... u gotta do what u gotta do.
 
-You make ordinary moments extraordinary, and I find myself falling deeper in love with you with each passing day. Your smile lights up my world, and your love gives me strength I never knew I had.
+So, the thing is IK ki i mess shit up, sometimes intentionally and sometimes unintentionally
+but something i never want to mess up is our future together and for that amar khomotai ja ache ami
+tai korbo. And the only motivation i need is "YOU". So are u willing to spend ur second valentine
+with this idiot?
 
-As we begin this Valentine's Week journey together, I want you to know that my heart beats only for you. Will you be mine, not just for this week, but for all the days to come?
-
-Forever yours,
-With all my love 💕`;
+PS: Something u should know about this website is that if u are willing to accpt me as ur
+    valentine, u need to click the red button. But a twist is that the page will be locked till
+    the corresponding day. Ak dinei sob kota dekhte pabina :)`;
 
 const SUBTITLE = "A journey through love, from proposal to forever 💕";
 
@@ -48,7 +52,7 @@ const Proposal = () => {
               <p className="text-muted-foreground text-sm text-center mb-6">
                 Pour your feelings into words...
               </p>
-              
+
               {/* Hardcoded Letter Display */}
               <div className="bg-valentine-pink-light/50 rounded-lg p-4 md:p-6 min-h-[200px]">
                 <p className="text-foreground text-sm md:text-base whitespace-pre-line leading-relaxed">

@@ -12,7 +12,7 @@ import { Card, CardContent } from "@/components/ui/card";
 // ═══════════════════════════════════════════════════════════════════════════
 
 // Set to false to unlock this page
-const IS_LOCKED = false;
+const IS_LOCKED = true;
 
 // Custom image - replace with your image URL or import
 const CUSTOM_IMAGE = "/Images/image_RoseDay.jpeg"; // Example: "https://example.com/our-photo.jpg"
@@ -92,7 +92,7 @@ const RoseDay = () => {
           <div className="max-w-3xl mx-auto mb-6">
             <ImageBlock
               imageSrc={CUSTOM_IMAGE}
-              placeholder="HAPPY ROSE DAY BABY"
+              placeholder=""
             />
           </div>
 

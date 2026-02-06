@@ -12,7 +12,7 @@ import { Card, CardContent } from "@/components/ui/card";
 // ═══════════════════════════════════════════════════════════════════════════
 
 const IS_LOCKED = true;
-const CUSTOM_IMAGE = "image_ChocolateDay.jpeg";
+const CUSTOM_IMAGE = "";
 const CUSTOM_MESSAGE = "I promise to be your rock when the seas get rough, your sunshine on cloudy days, and your partner in every adventure life brings. With you, I've found my forever, and I promise to cherish every moment we share.";
 const BOTTOM_MESSAGE = "These aren't just promises—they're commitments written in my heart, sealed with love, and meant for eternity. 💜";
 

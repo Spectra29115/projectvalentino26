@@ -12,7 +12,7 @@ import { Card, CardContent } from "@/components/ui/card";
 // ═══════════════════════════════════════════════════════════════════════════
 
 // Set to false to unlock this page
-const IS_LOCKED = true;
+const IS_LOCKED = false;
 
 // Custom image - replace with your image URL or import
 const CUSTOM_IMAGE = "/Images/image_RoseDay.jpeg"; // Example: "https://example.com/our-photo.jpg"

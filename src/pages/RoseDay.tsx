@@ -110,7 +110,7 @@ const RoseDay = () => {
                 Proposal
               </Button>
             </Link>
-            <Link to="/chocolate-day">
+            <Link to="/propose-day">
               <Button className="gap-2 bg-valentine-brown hover:bg-valentine-brown/90">
                 Chocolate Day
                 <ArrowRight className="w-4 h-4" />

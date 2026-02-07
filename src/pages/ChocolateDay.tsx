@@ -11,7 +11,8 @@ import { Card, CardContent } from "@/components/ui/card";
 // CUSTOMIZATION SECTION
 // ═══════════════════════════════════════════════════════════════════════════
 
-const IS_LOCKED = true;
+const unlockDate = new Date("2026-02-09"); // Change this date for each day
+const IS_LOCKED = new Date() < unlockDate;
 const CUSTOM_IMAGE = "/Images/image_ChocolateDay.jpeg";
 const CUSTOM_MESSAGE = "Life is like a box of chocolates, and meeting you was finding the softest and the warmest brownie. UK? Like the book store one";
 const BOTTOM_MESSAGE = "You're sweeter than any chocolate, and tasting u felt like heaven. Here's to our love that only gets sweeter with time. 🍫❤️";

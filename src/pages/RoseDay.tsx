@@ -12,7 +12,8 @@ import { Card, CardContent } from "@/components/ui/card";
 // ═══════════════════════════════════════════════════════════════════════════
 
 // Set to false to unlock this page
-const IS_LOCKED = false;
+const unlockDate = new Date("2026-02-07"); // Change this date for each day
+const IS_LOCKED = new Date() < unlockDate;
 
 // Custom image - replace with your image URL or import
 const CUSTOM_IMAGE = "/Images/image_RoseDay.jpeg"; // Example: "https://example.com/our-photo.jpg"

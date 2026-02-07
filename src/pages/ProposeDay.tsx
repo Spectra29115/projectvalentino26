@@ -39,7 +39,7 @@ const ProposeDay = () => {
       </div>
 
       <ValentineNav />
-      
+
       <main className="container mx-auto px-4 sm:px-6 lg:px-8 pt-20 sm:pt-24 pb-8 sm:pb-12 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Hero */}
@@ -68,7 +68,7 @@ const ProposeDay = () => {
                   </div>
                   <div className="flex justify-center gap-3 sm:gap-4 flex-wrap">
                     {loveEmojis.map((emoji, i) => (
-                      <div 
+                      <div
                         key={i}
                         className="bg-white/20 p-2 sm:p-4 rounded-xl text-2xl sm:text-4xl hover:scale-110 transition-transform cursor-pointer animate-float"
                         style={{ animationDelay: `${i * 0.3}s` }}

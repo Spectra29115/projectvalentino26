@@ -112,10 +112,10 @@ const ChocolateDay = () => {
 
           {/* Navigation */}
           <div className="flex justify-center gap-4">
-            <Link to="/rose-day">
+            <Link to="/propose-day">
               <Button variant="outline" className="gap-2">
                 <ArrowLeft className="w-4 h-4" />
-                Rose Day
+                Propose Day
               </Button>
             </Link>
             <Link to="/teddy-day">

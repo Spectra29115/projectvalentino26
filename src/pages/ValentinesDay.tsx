@@ -11,7 +11,9 @@ import { Card, CardContent } from "@/components/ui/card";
 // CUSTOMIZATION SECTION
 // ═══════════════════════════════════════════════════════════════════════════
 
-const IS_LOCKED = true;
+const unlockDate = new Date("2026-02-14"); // Change this date for each day
+const IS_LOCKED = new Date() < unlockDate;
+
 const CUSTOM_IMAGE = "";
 const CUSTOM_MESSAGE = "Through every rose, every chocolate, every hug and kiss, I've been falling deeper in love with you. Today, I celebrate the greatest gift life has given me — You.";
 const BOTTOM_MESSAGE = "You are my morning sun and evening star. My laughter, my peace, my beautiful chaos. Today and always, you are my Valentine. I love you more than words could ever express.";
@@ -96,8 +98,8 @@ const ValentinesDay = () => {
 
           {/* Image Block */}
           <div className="max-w-3xl mx-auto mb-6">
-            <ImageBlock 
-              imageSrc={CUSTOM_IMAGE} 
+            <ImageBlock
+              imageSrc={CUSTOM_IMAGE}
               placeholder="Add your most special Valentine's photo here"
             />
           </div>

@@ -11,7 +11,9 @@ import { Card, CardContent } from "@/components/ui/card";
 // CUSTOMIZATION SECTION
 // ═══════════════════════════════════════════════════════════════════════════
 
-const IS_LOCKED = true;
+const unlockDate = new Date("2026-02-10"); // Change this date for each day
+const IS_LOCKED = new Date() < unlockDate;
+
 const CUSTOM_IMAGE = "";
 const CUSTOM_MESSAGE = "When I'm not there to hold you, let this teddy remind you of my warmth. Every time you hug it, imagine it's me wrapping my arms around you with all my love.";
 const BOTTOM_MESSAGE = "Just like a teddy, I'll always be soft with your heart, warm in my love, and forever by your side. 🧸❤️";
@@ -53,8 +55,8 @@ const TeddyDay = () => {
               </h2>
               <div className="flex justify-center gap-4 flex-wrap">
                 {teddies.map((teddy, i) => (
-                  <div 
-                    key={i} 
+                  <div
+                    key={i}
                     className="w-16 h-16 md:w-20 md:h-20 bg-card rounded-xl flex items-center justify-center text-3xl md:text-4xl shadow-md hover:scale-110 transition-transform"
                   >
                     {teddy}
@@ -98,8 +100,8 @@ const TeddyDay = () => {
 
           {/* Image Block */}
           <div className="max-w-3xl mx-auto mb-6">
-            <ImageBlock 
-              imageSrc={CUSTOM_IMAGE} 
+            <ImageBlock
+              imageSrc={CUSTOM_IMAGE}
               placeholder="Add a cuddly teddy day photo here"
             />
           </div>

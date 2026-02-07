@@ -11,7 +11,9 @@ import { Card, CardContent } from "@/components/ui/card";
 // CUSTOMIZATION SECTION
 // ═══════════════════════════════════════════════════════════════════════════
 
-const IS_LOCKED = true;
+const unlockDate = new Date("2026-02-13"); // Change this date for each day
+const IS_LOCKED = new Date() < unlockDate;
+
 const CUSTOM_IMAGE = "";
 const CUSTOM_MESSAGE = `Your lips, a poetry I long to read,
 Each kiss, a chapter of love indeed.
@@ -53,12 +55,12 @@ const KissDay = () => {
                 Sealed with a Kiss 💋
               </h2>
               <div className="text-4xl mb-4">🥰 💕 😘 ✨</div>
-              
+
               {/* Kiss Types */}
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-6">
                 {kissTypes.map((kiss, i) => (
-                  <div 
-                    key={i} 
+                  <div
+                    key={i}
                     className="p-3 bg-valentine-pink-light rounded-lg text-center"
                   >
                     <span className="text-2xl block mb-1">{kiss.emoji}</span>
@@ -84,8 +86,8 @@ const KissDay = () => {
 
           {/* Image Block */}
           <div className="max-w-3xl mx-auto mb-6">
-            <ImageBlock 
-              imageSrc={CUSTOM_IMAGE} 
+            <ImageBlock
+              imageSrc={CUSTOM_IMAGE}
               placeholder="Add a romantic kiss day photo here"
             />
           </div>

@@ -11,7 +11,9 @@ import { Card, CardContent } from "@/components/ui/card";
 // CUSTOMIZATION SECTION
 // ═══════════════════════════════════════════════════════════════════════════
 
-const IS_LOCKED = true;
+const unlockDate = new Date("2026-02-12"); // Change this date for each day
+const IS_LOCKED = new Date() < unlockDate;
+
 const CUSTOM_IMAGE = "";
 const CUSTOM_MESSAGE = "In your arms, I've found my safe haven—a place where worries melt away and only love remains. Every hug from you feels like coming home. You are my favorite place to be.";
 const BOTTOM_MESSAGE = "Did you know? Hugging releases oxytocin, the 'love hormone,' which reduces stress and increases feelings of trust and bonding! 🤗💚";
@@ -61,8 +63,8 @@ const HugDay = () => {
             <CardContent className="p-6 md:p-8">
               <div className="grid sm:grid-cols-2 gap-4">
                 {hugTypes.map((hug, i) => (
-                  <div 
-                    key={i} 
+                  <div
+                    key={i}
                     className="flex items-center gap-3 p-4 bg-valentine-teal-light/50 rounded-lg"
                   >
                     <span className="text-2xl">{hug.emoji}</span>
@@ -91,8 +93,8 @@ const HugDay = () => {
 
           {/* Image Block */}
           <div className="max-w-3xl mx-auto mb-6">
-            <ImageBlock 
-              imageSrc={CUSTOM_IMAGE} 
+            <ImageBlock
+              imageSrc={CUSTOM_IMAGE}
               placeholder="Add a warm hug day photo here"
             />
           </div>

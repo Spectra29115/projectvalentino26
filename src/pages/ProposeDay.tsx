@@ -1,7 +1,7 @@
 import { Heart, ArrowRight, ArrowLeft, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import ValentineNav from "@/components/ValentineNav";
+import Layout from "@/components/Layout";
 import ImageBlock from "@/components/ImageBlock";
 import MessageBlock from "@/components/MessageBlock";
 import { Link } from "react-router-dom";
@@ -38,7 +38,7 @@ const ProposeDay = () => {
         ))}
       </div>
 
-      <ValentineNav />
+      <Layout><></></Layout>
 
       <main className="container mx-auto px-4 sm:px-6 lg:px-8 pt-20 sm:pt-24 pb-8 sm:pb-12 relative z-10">
         <div className="max-w-4xl mx-auto text-center">

@@ -11,7 +11,7 @@ import { Card, CardContent } from "@/components/ui/card";
 // CUSTOMIZATION SECTION
 // ═══════════════════════════════════════════════════════════════════════════
 
-const unlockDate = new Date("2026-02-10"); // Change this date for each day
+const unlockDate = new Date("2026-02-11"); // Change this date for each day
 const IS_LOCKED = new Date() < unlockDate;
 
 const CUSTOM_IMAGE = "";

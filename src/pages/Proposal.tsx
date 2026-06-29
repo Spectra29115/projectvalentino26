@@ -8,20 +8,7 @@ import { Card, CardContent } from "@/components/ui/card";
 // CUSTOMIZATION SECTION - Edit your letter and messages below
 // ═══════════════════════════════════════════════════════════════════════════
 
-const PROPOSAL_LETTER = `Hi Baby,
-
-So the thing is ami toke reels er through jigesh korleo officially jigesh korini about this. IK ki
-a lot of things have happened recently which left neither one of us in a good shape. Literally amar
-matha phete jacche rn. But..... u gotta do what u gotta do.
-
-So, the thing is IK ki i mess shit up, sometimes intentionally and sometimes unintentionally
-but something i never want to mess up is our future together and for that amar khomotai ja ache ami
-tai korbo. And the only motivation i need is "YOU". So are u willing to spend ur second valentine
-with this idiot?
-
-PS: Something u should know about this website is that if u are willing to accpt me as ur
-    valentine, u need to click the red button. But a twist is that the page will be locked till
-    the corresponding day. Ak dinei sob kota dekhte pabina :)`;
+const PROPOSAL_LETTER = `CUSTOM MESSAGE`;
 
 const SUBTITLE = "A journey through love, from proposal to forever 💕";
 
